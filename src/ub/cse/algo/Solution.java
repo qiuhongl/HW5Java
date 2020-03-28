@@ -1,7 +1,6 @@
 package ub.cse.algo;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 
 public class Solution {
@@ -37,6 +36,7 @@ public class Solution {
         // Set the start time
         int f = 0;
 
+        // If there is no way to finish any one of the rally before its deadline, then we will set this to true.
         boolean nuke = false;
 
         // Run a greedy algorithm (Scheduling to Minimize Lateness)
